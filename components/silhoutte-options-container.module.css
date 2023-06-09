@@ -1,0 +1,52 @@
+.frameChild {
+  position: relative;
+  width: 40px;
+  height: 58.48px;
+}
+.frame {
+  border-radius: var(--br-9xs);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fullSleeves {
+  position: relative;
+  font-weight: 500;
+}
+.full {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--dark-palette-n100-athens-gray);
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.silhoutteOptions {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--montserrat-text-small-regular-size);
+  line-height: 20px;
+  font-weight: 600;
+}
+.fullParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--theme-white);
+  font-family: var(--montserrat-text-md-semi-bold);
+}

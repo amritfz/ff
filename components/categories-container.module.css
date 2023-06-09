@@ -1,0 +1,68 @@
+.categories {
+  font-weight: 600;
+}
+.categoriesWeServeContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-35xl);
+  line-height: 100%;
+  text-align: left;
+}
+.catalogCardParent {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  color: var(--dark-palette-n700-rhino);
+}
+.mailIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--theme-wild-watermelon-primary);
+  box-shadow: var(--shadow-xs);
+  width: 186px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  color: var(--theme-white);
+}
+.categoriesWeServeParent,
+.custformvariant3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoriesWeServeParent {
+  justify-content: flex-end;
+  gap: var(--gap-61xl);
+}
+.custformvariant3 {
+  align-self: stretch;
+  background-color: var(--theme-white);
+  overflow: hidden;
+  padding: var(--padding-101xl);
+  justify-content: center;
+  text-align: center;
+  font-size: var(--montserrat-text-md-semi-bold-size);
+  color: var(--dark-palette-n900-ebony);
+  font-family: var(--montserrat-text-md-semi-bold);
+}

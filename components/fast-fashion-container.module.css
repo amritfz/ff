@@ -1,0 +1,53 @@
+.ourOfferingFor {
+  font-weight: 600;
+}
+.ourOfferingForContainer {
+  align-self: stretch;
+  position: relative;
+}
+.ourOfferingForFastFashionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  position: relative;
+  width: 106px;
+  height: 106px;
+}
+.reduction1 {
+  position: relative;
+  line-height: 24px;
+}
+.features,
+.reduction,
+.reductionParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.reduction {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.features,
+.reductionParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-45xl);
+  text-align: center;
+  font-size: var(--montserrat-text-md-semi-bold-size);
+}
+.features {
+  background-color: var(--theme-white);
+  flex-direction: column;
+  padding: var(--padding-101xl);
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--dark-palette-n700-rhino);
+  font-family: var(--montserrat-text-md-semi-bold);
+}

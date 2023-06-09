@@ -1,0 +1,126 @@
+.groupIcon {
+  position: absolute;
+  top: 0;
+  left: 0.28px;
+  width: 115.19px;
+  height: 17.67px;
+}
+.group1,
+.groupParent,
+.manufacturingSimplified {
+  position: absolute;
+  left: 0;
+  width: 114.83px;
+  height: 12.39px;
+}
+.manufacturingSimplified {
+  top: 0;
+  display: inline-block;
+  font-weight: 300;
+}
+.group1,
+.groupParent {
+  top: 20.33px;
+}
+.groupParent {
+  top: 7.84px;
+  left: 56.52px;
+  width: 115.48px;
+  height: 32.72px;
+}
+.groupIcon1,
+.vectorIcon {
+  position: absolute;
+  top: 8.52px;
+  left: 115.72px;
+  width: 3.82px;
+  height: 3.82px;
+}
+.groupIcon1 {
+  top: -0.25px;
+  left: -0.25px;
+  width: 48.57px;
+  height: 48.44px;
+}
+.group {
+  position: relative;
+  width: 172px;
+  height: 47.94px;
+}
+.groupWrapper {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mailIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.button,
+.button4,
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+}
+.button4 {
+  border-radius: var(--br-5xs);
+  background-color: var(--theme-wild-watermelon-primary);
+  box-shadow: var(--shadow-xs);
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.buttonGroup {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.buttonParent,
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonParent {
+  justify-content: flex-end;
+  gap: var(--gap-25xl);
+  text-align: center;
+  font-size: var(--montserrat-text-small-regular-size);
+  font-family: var(--montserrat-text-md-semi-bold);
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-palette-n900-ebony);
+  box-shadow: var(--shadow-low);
+  width: 1440px;
+  padding: var(--padding-base) var(--padding-61xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 9.48px;
+  color: var(--theme-white);
+  font-family: var(--font-konnect);
+}

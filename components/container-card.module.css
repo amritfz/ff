@@ -1,0 +1,75 @@
+.mailIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.chevronsOrShortArrow {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--theme-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.printIcon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+.noCustomized {
+  margin: 0;
+}
+.noCustomizedFabricContainer {
+  position: relative;
+  line-height: 16px;
+}
+.printParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.buttonParent,
+.pdpCatalogImages {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.pdpCatalogImages {
+  border-radius: var(--br-9xs);
+  background-color: var(--dark-palette-n25-brilliance);
+  border: 1px solid var(--dark-palette-n700-rhino);
+  overflow: hidden;
+  padding: var(--padding-base) 0;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+}
+.buttonParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--montserrat-text-xs-semi-bold-size);
+  color: var(--dark-palette-n700-rhino);
+  font-family: var(--montserrat-text-md-semi-bold);
+}

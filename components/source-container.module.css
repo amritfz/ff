@@ -1,0 +1,55 @@
+.sourceInTrendDesigns {
+  position: relative;
+  line-height: 70px;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 540px;
+}
+.generate100StylesContainer {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 20px;
+}
+.mailIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--theme-wild-watermelon-primary);
+  box-shadow: var(--shadow-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-13xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.buttonWrapper,
+.sourceInTrendDesignsAtLowParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--montserrat-text-md-semi-bold-size);
+}
+.sourceInTrendDesignsAtLowParent {
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-43xl);
+  color: var(--theme-white);
+  font-family: var(--montserrat-text-md-semi-bold);
+}

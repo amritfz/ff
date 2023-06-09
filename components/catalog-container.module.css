@@ -1,0 +1,106 @@
+.icons {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.readyStock {
+  position: relative;
+  font-weight: 500;
+}
+.catalogTag,
+.catalogTagWrapper,
+.large {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.catalogTag {
+  border-radius: 0 0 var(--br-5xs) 0;
+  background-color: var(--red-ep-r300-persimmon);
+  padding: 0 var(--padding-5xs) 0 var(--padding-9xs);
+  align-items: center;
+  gap: var(--gap-9xs);
+}
+.catalogTagWrapper,
+.large {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-start;
+}
+.large {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  flex-direction: column;
+  background-image: url(/large11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.label {
+  position: relative;
+  font-weight: 600;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--theme-white);
+  height: 40px;
+  display: none;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.reddishBlueAbstract {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.reddishBlueAbstractPatternWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.catalogCard,
+.catalogDetails,
+.catalogDetailsInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.catalogDetailsInner {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--montserrat-text-xs-semi-bold-size);
+  color: var(--dark-palette-n700-rhino);
+}
+.catalogCard,
+.catalogDetails {
+  box-sizing: border-box;
+}
+.catalogDetails {
+  align-self: stretch;
+  background-color: var(--theme-white);
+  height: 40px;
+  padding: var(--padding-xs);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--montserrat-text-small-regular-size);
+  color: var(--theme-wild-watermelon-primary);
+}
+.catalogCard {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--dark-palette-n100-athens-gray);
+  height: 322px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--theme-white);
+  font-family: var(--montserrat-text-md-semi-bold);
+}

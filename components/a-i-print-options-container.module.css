@@ -1,0 +1,58 @@
+.kejrbgpngIcon {
+  position: relative;
+  border-radius: var(--br-xs);
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.wideFabricCollection {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frameGroup,
+.kejrbgpngParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.kejrbgpngParent {
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--montserrat-text-small-regular-size);
+}
+.frameGroup {
+  align-items: center;
+  gap: var(--gap-141xl);
+}
+.screenshot20230526At448Icon {
+  position: relative;
+  width: 177.97px;
+  height: 600px;
+  object-fit: cover;
+}
+.frameContainer,
+.frameParent,
+.kejrbgpngGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameContainer,
+.frameParent {
+  align-items: center;
+  gap: var(--gap-141xl);
+  font-size: var(--montserrat-text-small-regular-size);
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--theme-white);
+  font-family: var(--montserrat-text-md-semi-bold);
+}

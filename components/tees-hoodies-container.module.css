@@ -1,0 +1,38 @@
+.largeChild {
+  align-self: stretch;
+  height: 280px;
+}
+.large {
+  align-self: stretch;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url(/large6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.teesHoodies {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 208px;
+}
+.catalogCard {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--dark-palette-n100-athens-gray);
+  box-sizing: border-box;
+  height: 322px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--montserrat-text-md-semi-bold-size);
+  color: var(--dark-palette-n700-rhino);
+  font-family: var(--montserrat-text-md-semi-bold);
+}
